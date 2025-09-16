@@ -22,9 +22,14 @@ INSTALLED_APPS = [
     "drf_spectacular",
     "djoser",
 
-    # local
+    # local apps
     "core",
+    "devices",
+    "events",
+    "rules",
+    "users",
 ]
+
 
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",  # CORS перед CommonMiddleware
